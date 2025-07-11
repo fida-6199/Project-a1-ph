@@ -13,7 +13,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
-/* Header styles  */
+/* Navbar Section + Banner Section */
 nav {
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ nav {
 
 }
 .header-class {
-    background-image: url(Assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     width: auto;
     height: 698px;
 }
@@ -71,3 +71,64 @@ nav {
     font-weight: bold;
     border: none;
 }
+/* main Action Section */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     /* width: 1140px;
+    height: 328px;  */
+    /* margin-left: 0px; */
+    /* gap: 500px; */
+    gap: 500px;
+
+}
+.description-color {
+    color: #252432;
+}
+.main-h2 {
+    font-size: 42px;
+    font-weight: bold;
+    height: 10px;
+}
+.wc-mini-class {
+    border-radius: 40px;
+    width: 403px;
+    height: 328px;
+}
+.main-btn-launch{
+    width: 229px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.main-p {
+    font: 24px;
+    width: 517px;
+    /* height: 60px; */
+    color: rgba(37, 36, 50, 0.5);
+}
+.w-h-main{
+     width: 1140px;
+    height: 328px; 
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    background-color: #FFFFFF;
+    
+}
+.mini-div {
+    margin-right: 0px;
+    
+}
+.main-des {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+/* main Productive Users Section */
