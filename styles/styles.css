@@ -246,3 +246,15 @@ nav {
     font-size: 0.8rem; font-family: 'inter', sans-serif;
     margin-top: 3px;
 }
+.hover-button {
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-weight: 700;
+}
+.hover-button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
