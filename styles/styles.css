@@ -42,7 +42,7 @@ nav {
 
 }
 .header-class {
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url('../assets/Hero-bg.png');
     width: auto;
     height: 698px;
 }
