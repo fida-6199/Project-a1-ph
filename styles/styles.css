@@ -173,13 +173,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin-top: 6px;
 }
-/* Responsive Layout */
-@media (max-width: 768px) {
-  .stats {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
+
 /* Users’ Feedback Section */
 .review-container{
     padding: 60px;
@@ -296,4 +290,131 @@ body {
 }
 .img-ban{
     border-radius: 50px;
+}
+/* Contact Section Styles */
+.contact-section {
+  background-color: #f5f8ff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;           /* Vertically aligns text and form */
+  justify-content: space-between;
+  gap: 0px;
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* Aligns with the form's left edge */
+  align-items: center;         /* Centers it vertically with the form */
+}
+
+
+.contact-text h2 {
+  font-size: 70px;               /* Reduce to match form height */
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  line-height: 1.3;
+  text-align: left;              /* Aligns with form inputs */
+}
+
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #5a54f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #28e0e0;
+}
+.footer {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 90px;
+  font-weight: 800;
+  color: #5a54f1;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #5a54f1;
 }
