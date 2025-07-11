@@ -1,0 +1,73 @@
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Header styles  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.h3-color {
+    color: rgba(78, 71, 255, 1);
+}
+.h3-class {
+    font-size: 34px;
+    font-weight: 800;
+    margin-left: 150px;
+}
+.singup-margin {
+    margin-right: 150px;
+    width: 132px;
+    height: 48px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+
+}
+.header-class {
+    background-image: url(/Assets/Hero-bg.png);
+    width: auto;
+    height: 698px;
+}
+.header-des {
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+.h-b-d-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-ban-des{
+    /* width: 905px;
+    height: 237px; */
+    margin-top: 100px;
+}
+.stayfocused-btn{
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
